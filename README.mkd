@@ -9,7 +9,10 @@ But if you use a gaming mouse (like [Razer](http://www.razerzone.com/)) then you
 ## Compile
 
 ```
-gcc -framework CoreFoundation -framework IOKit killmouseaccel/main.c -o killmouseaccel
+clang -framework CoreFoundation -framework IOKit killmouseaccel/main.c -o killmouseaccel
+
+# for cross compiling
+clang -target x86_64-apple-darwin killmouseaccel/main.c -framework CoreFoundation -framework IOKit -o kma-x64
 ```
 
 ## Run
