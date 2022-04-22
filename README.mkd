@@ -6,6 +6,12 @@ Normally, this works fine.
 
 But if you use a gaming mouse (like [Razer](http://www.razerzone.com/)) then you probably don't want the acceleration.  It can cause things to become jumpy or otherwise misbehave.
 
+## Compile
+
+```
+gcc -framework CoreFoundation -framework IOKit main.c -o killmouseaccel
+```
+
 ## Origin
 
 This is originally code found on http://forums3.armagetronad.net/viewtopic.php?p=196564#p196564
