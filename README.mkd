@@ -18,6 +18,8 @@ gcc -framework CoreFoundation -framework IOKit killmouseaccel/main.c -o killmous
 ./killmouseaccel mouse
 ```
 
+Effect goes away after a restart
+
 ## Origin
 
 This is originally code found on http://forums3.armagetronad.net/viewtopic.php?p=196564#p196564
