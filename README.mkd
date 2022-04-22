@@ -9,7 +9,13 @@ But if you use a gaming mouse (like [Razer](http://www.razerzone.com/)) then you
 ## Compile
 
 ```
-gcc -framework CoreFoundation -framework IOKit main.c -o killmouseaccel
+gcc -framework CoreFoundation -framework IOKit killmouseaccel/main.c -o killmouseaccel
+```
+
+## Run
+
+```
+./killmouseaccel mouse
 ```
 
 ## Origin
